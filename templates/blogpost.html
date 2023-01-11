@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block body %}
+    <div class="container">
+        <img src="KNTU.png" class="img-thumbnail" alt="kntu">
+        <h1><b>{{ blog.title }}</b></h1>
+        <div>
+            {{ blog.content }} <br> <br>
+        </div>
+        <i class="text-right">{{ blog.time }}</i>
+    </div>
+
+{% endblock body %}
